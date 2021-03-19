@@ -54,7 +54,7 @@ if(val.usuario==user){
    flag=true
     localStorage.setItem("Nombre", inicio);
 
-    window.location='/html/inicio.html'
+    window.location='../Index.html'
    
 
     }else{
