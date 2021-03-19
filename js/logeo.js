@@ -31,7 +31,7 @@ if((user.length == 0) & (pass.length == 0)){
     alert("Ingrese una contraseña")
    }else{
    
-fetch('/login.json')
+fetch('/json/login.json')
 
 .then(function(respuesta){
 
